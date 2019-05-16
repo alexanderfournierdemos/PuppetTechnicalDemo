@@ -13,7 +13,7 @@ NOTE: It is not sufficient to forward port 8000 on either the host or the guest 
 
 ## Project Overview 
 
-The solution provided Uses Ansible to deploy Jenkins on Vagrant. You must first install ansible and configure your development environment to run this project. You can do so with the following
+The solution provided Uses Ansible to deploy Jenkins on Vagrant. You must first install ansible and configure your development environment to run this project. You can do so using the "Getting Started" section below. The project links to a custom ansible role repository that makes configuration of future deployments version controlled and highly customizable. 
 
 
 
