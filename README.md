@@ -69,4 +69,4 @@ Jenkins:8000
 
 ## Proof Image
 
-![Jenkins 8000](https://imgur.com/a/GDZPtmh)
+https://imgur.com/a/GDZPtmh
