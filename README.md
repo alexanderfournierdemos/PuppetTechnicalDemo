@@ -1,5 +1,5 @@
 
-# puppetTechnicalProject
+# PuppetTechnicalProject
 
 
 ## Requirements
@@ -13,7 +13,7 @@ NOTE: It is not sufficient to forward port 8000 on either the host or the guest 
 
 ## Project Overview 
 
-The solution provided Uses Ansible to deploy Jenkins on Vagrant. 
+The solution provided Uses Ansible to deploy Jenkins on Vagrant. You must first install ansible and configure your development environment to run this project. You can do so with the following
 
 
 
@@ -22,10 +22,7 @@ https://docs.google.com/document/d/17lKg2-c4-K6GH8U8nZc2ffhDyuB8IyOBOUvIPY5laL8/
 
 
 
-
 ## Getting Started
-
-This README file is inside a folder that contains a `Vagrantfile` (hereafter this folder shall be called the [vagrant_root]), which tells Vagrant how to set up your virtual machine in VirtualBox.
 
 To use the vagrant file, you will need to have done the following:
 
@@ -44,21 +41,6 @@ Once the new VM is up and running (after `vagrant up` is complete and you're bac
 You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Windows: `%systemroot%\system32\drivers\etc\hosts`), adding the line below:
 
     192.168.33.55  jenkins
-
-
-
-
-## Prerequisites:
-
-* Download and Install VirtualBox
-* Download and Install Vagrant
-* Install Ansible
-
-
-
-OS: Ubuntu 16.04
-
-
 
 
 ## Documentation:
