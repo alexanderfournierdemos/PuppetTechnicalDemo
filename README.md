@@ -46,3 +46,9 @@ You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Wind
 ## Documentation:
 
 * https://docs.ansible.com : Ansible 
+
+
+
+## To Do/ Improvements
+
+* Obviously less than ideal having to do manual setup of dev machine/ansible master. Probably could have figured out a way to tie vagrant together similar to a docker-compose. 
