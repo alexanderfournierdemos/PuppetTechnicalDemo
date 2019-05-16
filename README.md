@@ -43,6 +43,12 @@ You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Wind
     192.168.33.55  jenkins
 
 
+
+## Dependent Ansible Role Repository 
+
+* https://github.com/alexanderfournierdemos/ansible-role-jenkins.git
+ 
+ 
 ## Documentation:
 
 * https://docs.ansible.com : Ansible 
