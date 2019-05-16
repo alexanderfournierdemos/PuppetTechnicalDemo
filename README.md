@@ -1,10 +1,27 @@
-# Ansible Vagrant profile for a Jenkins CI server
 
-## Background
+# puppetTechnicalProject
 
-Vagrant and VirtualBox (or some other VM provider) can be used to quickly build or rebuild virtual servers.
 
-This Vagrant profile installs [Jenkins](http://jenkins-ci.org/) (running on Java) using the [Ansible](http://www.ansible.com/) provisioner.
+## Requirements
+
+*  The solution must run on a clean installation of the chosen operating system without errors.
+* Jenkins and its prerequisites must be installed without manual intervention.
+* Jenkins must be configured to serve requests over port 8000.
+NOTE: It is not sufficient to forward port 8000 on either the host or the guest OS to the default Jenkins port. Jenkins itself must be configured to listen on port 8000.
+* Subsequent applications of the solution should not cause failures or repeat redundant configuration tasks
+
+
+## Project Overview 
+
+The solution provided Uses Ansible to deploy Jenkins on Vagrant. 
+
+
+
+## Q & A 
+https://docs.google.com/document/d/17lKg2-c4-K6GH8U8nZc2ffhDyuB8IyOBOUvIPY5laL8/edit?usp=sharing
+
+
+
 
 ## Getting Started
 
@@ -28,12 +45,22 @@ You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Wind
 
     192.168.33.55  jenkins
 
-(Where `jenkins`) is the hostname you have configured in the `Vagrantfile`).
 
-After that is configured, you could visit http://jenkins:8080/ in a browser, and you'll see the Jenkins home page.
 
-If you'd like additional assistance editing your hosts file, please read [How do I modify my hosts file?](http://www.rackspace.com/knowledge_center/article/how-do-i-modify-my-hosts-file) from Rackspace.
 
-## Author Information
+## Prerequisites:
 
-Created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+* Download and Install VirtualBox
+* Download and Install Vagrant
+* Install Ansible
+
+
+
+OS: Ubuntu 16.04
+
+
+
+
+## Documentation:
+
+* https://docs.ansible.com : Ansible 
