@@ -4,3 +4,5 @@
 - src: geerlingguy.git
 - src: geerlingguy.java
 - src: https://github.com/alexanderfournierdemos/ansible-role-jenkins
+  version: master
+  name: jenkins
