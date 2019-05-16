@@ -44,6 +44,12 @@ You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Wind
 
 
 
+
+Run:
+
+Jenkins:8000
+
+
 ## Dependent Ansible Role Repository 
 
 * https://github.com/alexanderfournierdemos/ansible-role-jenkins.git
@@ -58,3 +64,9 @@ You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Wind
 ## To Do/ Improvements
 
 * Obviously less than ideal having to do manual setup of dev machine/ansible master. Probably could have figured out a way to tie vagrant together similar to a docker-compose. 
+
+
+
+## Proof Image
+
+![Jenkins 8000](https://imgur.com/a/GDZPtmh)
